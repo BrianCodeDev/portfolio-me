@@ -1,7 +1,24 @@
 .navbar {
     display: flex;
-}
-.navbar-content {
-    margin-left: 10px;
-    margin-right: 10px;
-}
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-nav.left {
+    margin-right: auto;
+  }
+  
+  .navbar-nav.right {
+    margin-left: auto;
+  }
+  .navbar-nav {
+    display: flex;
+  }
+  .navbar-nav li {
+    list-style-type: none;
+  }
+  .navbar-nav li a {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
