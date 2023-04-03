@@ -1,0 +1,7 @@
+.navbar {
+    display: flex;
+}
+.navbar-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
